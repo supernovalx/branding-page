@@ -1,0 +1,65 @@
+@media only screen and (min-width: 856px) {
+
+    .form-container,
+    .location-container,
+    .contact-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 855px) {
+
+    .form-container>div,
+    .location-container>div {
+        margin-top: 1em;
+    }
+
+}
+
+
+input,
+select,
+textarea {
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    height: 2em;
+    width: 100%;
+}
+
+input[type="file"] {
+    border-color: orange;
+    border-radius: 0;
+    padding: 0.3em;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    border-color: orange;
+    background-color: orange;
+    font-size: 1.2em;
+}
+
+.wide {
+    grid-column: 1/3;
+}
+
+.wide textarea {
+    height: 10em;
+}
+
+.location h2 {
+    color: orange;
+}
+
+.location ul {
+    margin-top: 1em;
+}
+
+.location ul li {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #666;
+}

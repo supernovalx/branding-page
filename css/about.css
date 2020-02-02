@@ -1,0 +1,60 @@
+section>h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section>h2::after {
+    margin: 0.5em 0;
+    content: ' ';
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: orange;
+}
+
+section>p {
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin-top: 1em;
+}
+
+strong {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 856px) {
+    .step-container {
+        margin-top: 2em;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-column-gap: 1em;
+        grid-row-gap: 1.5em;
+    }
+
+
+}
+
+@media only screen and (max-width:855px) {
+    .step-container div:nth-child(odd) {
+        text-decoration: underline;
+        text-decoration-color: black;
+        margin: 0.3em 0;
+    }
+}
+
+.step-container div:nth-child(odd) {
+    color: red;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.step-container div:nth-child(even) {
+    font-size: 1.2em;
+}
+
+video {
+    display: block;
+    width: 100%;
+}

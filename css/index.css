@@ -1,0 +1,137 @@
+/*          BANNER              */
+
+.banner-heading h2 {
+    text-align: center;
+    font-size: 2em;
+    padding: 1.3em 0em;
+}
+
+.banner-image img {
+
+    width: 100%;
+}
+
+/*          END BANNER              */
+
+
+/*          STAT                        */
+
+@media only screen and (min-width: 856px) {
+    .stat {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        padding: 3em;
+        grid-column-gap: 1em;
+        background-color: rgb(231, 231, 231);
+    }
+}
+
+@media only screen and (max-width:855px) {
+    .stat-number {
+        margin-top: 2em;
+    }
+}
+
+
+.stat-intro h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.stat-intro p {
+    line-height: 1.3em;
+}
+
+.stat-number h4 {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+    color: orange;
+}
+
+.stat-number ul li {
+    display: inline-block;
+    padding: 0.8em;
+}
+
+.stat-number ul li h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.stat-number ul li span {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/*              END STAT            */
+
+/*          CLIENT              */
+
+.client h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.client-container {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 2em;
+}
+
+.client-container img {
+    display: block;
+    margin: auto;
+}
+
+
+/*          END CLIENT          */
+
+/*
+ * ─── TESTIMONIALS ───────────────────────────────────────────────────────────────
+ */
+
+@media only screen and (min-width: 856px) {
+    .testimonial-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-gap: 2em;
+    }
+
+    .testimonial {
+        box-shadow: 10px 10px 24px 0px rgba(214, 214, 214, 1);
+        border-radius: 3%;
+        padding: 2em;
+    }
+}
+
+@media only screen and (max-width:855px) {
+    .testimonial {
+        margin-bottom: 2em;
+    }
+}
+
+
+.testimonials>h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.testimonial blockquote {
+    font-size: 1.3em;
+    line-height: 1.2;
+}
+
+.testimonial h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: right;
+}
+
+/*
+ * ───  ───────────────────────────────────────────────────────────────────────────
+*/

@@ -1,0 +1,60 @@
+section>h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+section>h2::after {
+    margin: 0.5em 0;
+    content: ' ';
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: orange;
+}
+
+section>p {
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin-top: 1em;
+}
+
+.job {
+    margin-top: 2em;
+}
+
+.job h3 {
+    color: #095CF6;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.job h4 {
+    margin-top: 0.5em;
+    font-size: 1.3em;
+}
+
+.job ul {
+    list-style-type: square;
+}
+
+.job ul li {
+    margin: 1em 0;
+    line-height: 1.2;
+}
+
+@media only screen and (min-width: 856px) {
+    .question-container {
+        margin-top: 2em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-row-gap: 1em;
+    }
+}
+
+
+
+.question-container div:hover {
+    color: orange;
+    cursor: pointer;
+}
